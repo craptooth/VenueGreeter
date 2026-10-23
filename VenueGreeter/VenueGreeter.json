@@ -1,13 +1,29 @@
-   {
-     "Author": "Malodorous Fang",
-     "Name": "Fang's Venue Greeter",
-     "InternalName": "VenueGreeter",
-     "Punchline": "Schedule based automated venue greeter/shouter for venues with multiple performers.",
-     "Description": "Auto-greets guests and runs timed shouts for scheduled performers. Never double-greets returning visitors, and a built-in buffer keeps you under the spam filter so groups are all greeted. Timed shouts use a customizable playlist with the same Name/Link variables as greetings.",
-     "ApplicableVersion": "any",
-     "RepoUrl": "https://github.com/craptooth/VenueGreeter",
-     "Tags": ["utility"],
-     "IconUrl": "https://raw.githubusercontent.com/craptooth/VenueGreeter/data/VenueGreeter.png",
-     "ImageUrls": [],
-     "IsHide": false
-   }
+[
+  {
+    "Author": "Malodorous Fang",
+    "Name": "Fang's Venue Greeter (v1.0.0.0)",
+    "InternalName": "VenueGreeter",
+    "AssemblyVersion": "1.0.0.0",
+    "Punchline": "Schedule based automated venue greeter/shouter for venues with multiple performers.",
+    "Description": "Auto-greets guests and runs timed shouts for scheduled performers. Never double-greets returning visitors, and a built-in buffer keeps you under the spam filter so groups are all greeted. Timed shouts use a customizable playlist with the same Name/Link variables as greetings.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/craptooth/VenueGreeter",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/craptooth/VenueGreeter/releases/download/v1.0.0.0/VenueGreeter-1.0.zip",
+    "DownloadLinkUpdate": "https://github.com/craptooth/VenueGreeter/releases/download/v1.0.0.0/VenueGreeter-1.0.zip",
+    "DownloadLinkTesting": "https://github.com/craptooth/VenueGreeter/releases/download/v1.0.0.0/VenueGreeter-1.0.zip",
+    "AcceptsFeedback": true,
+    "Tags": [
+      "utility",
+      "venue",
+      "greeter"
+    ],
+    "IconURL": "https://raw.githubusercontent.com/craptooth/VenueGreeter/refs/heads/master/Data/VenueGreeter.png",
+  },
+]
