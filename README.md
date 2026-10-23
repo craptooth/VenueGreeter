@@ -1,4 +1,4 @@
-# Venue Greeter
+# Fang's Venue Greeter
 
 Sends a `/tell` to anyone new who walks into your venue (house/apartment/FC
 room), using a message template with `{name}` and `{link}` placeholders. Up
@@ -42,7 +42,7 @@ per performer.
   support a "continue without re-targeting" shorthand the way local chat
   does).
 
-  ## How the dedupe works
+## How the dedupe works
 
 - Turning **Venue mode** on snapshots everyone currently in the instance as
   "already here" — they're never greeted.
