@@ -1,0 +1,25 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Description>Auto-greets guests and runs timed shouts for scheduled performers. Never double-greets returning visitors, and a built-in buffer keeps you under the spam filter so groups are all greeted. Timed shouts use a customizable playlist with the same Name/Link variables as greetings.</Description>
+    <Author>you</Author>
+    <Name>Fang's Venue Greeter</Name>
+    <InternalName>VenueGreeter</InternalName>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <MinimumDalamudVersion>15.0.0</MinimumDalamudVersion>
+    <Punchline>Schedule based automated venue greeter/shouter for venues with multiple performers.</Punchline>
+    <RepoUrl></RepoUrl>
+    <Tags>housing;utility;venue</Tags>
+    <DalamudApiLevel>15</DalamudApiLevel>
+    <LoadRequiredState>0</LoadRequiredState>
+    <LoadSync>false</LoadSync>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Chat.SendMessage wraps the game's own chatbox-send function. -->
+    <PackageReference Include="ECommons" Version="*" />
+  </ItemGroup>
+
+</Project>
