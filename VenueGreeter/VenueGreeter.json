@@ -7,7 +7,7 @@
      "ApplicableVersion": "any",
      "RepoUrl": "https://github.com/craptooth/VenueGreeter",
      "Tags": ["utility"],
-     "IconUrl": "https://raw.githubusercontent.com/craptooth/VenueGreeter/main/images/icon.png",
+     "IconUrl": "https://raw.githubusercontent.com/craptooth/VenueGreeter/data/VenueGreeter.png",
      "ImageUrls": [],
      "IsHide": false
    }
