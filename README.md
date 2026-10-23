@@ -1,5 +1,7 @@
 # Fang's Venue Greeter
 
+Custom Repo: https://raw.githubusercontent.com/craptooth/VenueGreeter/refs/heads/master/repo.json
+
 Sends a `/tell` to anyone new who walks into your venue (house/apartment/FC
 room), using a message template with `{name}` and `{link}` placeholders. Up
 to 5 time-of-day slots let you swap out who/what those placeholders point to
