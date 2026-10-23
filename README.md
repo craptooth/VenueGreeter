@@ -43,9 +43,6 @@ per performer.
   the full `/tell Name@World` prefix repeated on each chunk (tells don't
   support a "continue without re-targeting" shorthand the way local chat
   does).
-
-## How the dedupe works
-
 - Turning **Venue mode** on snapshots everyone currently in the instance as
   "already here" — they're never greeted.
 - Anyone new who loads into the instance afterward gets a `/tell` once, then
