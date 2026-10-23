@@ -3,7 +3,7 @@
      "Name": "Fang's Venue Greeter",
      "InternalName": "VenueGreeter",
      "Punchline": "Schedule based automated venue greeter/shouter for venues with multiple performers.",
-     "Description": “Auto-greets guests and runs timed shouts for scheduled performers. Never double-greets returning visitors, and a built-in buffer keeps you under the spam filter so groups are all greeted. Timed shouts use a customizable playlist with the same Name/Link variables as greetings.”,
+     "Description": "Auto-greets guests and runs timed shouts for scheduled performers. Never double-greets returning visitors, and a built-in buffer keeps you under the spam filter so groups are all greeted. Timed shouts use a customizable playlist with the same Name/Link variables as greetings.",
      "ApplicableVersion": "any",
      "RepoUrl": "https://github.com/craptooth/VenueGreeter",
      "Tags": ["utility"],
